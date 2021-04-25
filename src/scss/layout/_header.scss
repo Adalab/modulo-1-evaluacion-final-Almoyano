@@ -1,5 +1,54 @@
-.page__header {
+.header {
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+.menu-hero {
+  display: absolute;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #0271bc;
+  background-image: url("../images/ico-menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 44px;
+  height: 44px;
+}
+
+.text-container {
+  margin-bottom: 53px;
+}
+
+.text-hero {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.title-hero {
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.icon-down {
+  border-radius: 45px;
+  background-color: #ffffff;
+  background-image: url("../images/ico-scroll-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  margin-top: 45px;
 }
