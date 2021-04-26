@@ -15,7 +15,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #0271bc;
+  background-color: $CeruleanBlue;
   background-image: url("../images/ico-menu.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -29,26 +29,29 @@
 
 .text-hero {
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: $White;
   font-size: 16px;
   margin-top: 10px;
+  margin-bottom: 153px;
 }
 
 .title-hero {
   font-family: "Roboto Slab", serif;
-  color: #ffffff;
+  color: $White;
   font-weight: bold;
   font-size: 45px;
+  text-transform: uppercase;
+  word-spacing: 100vw;
 }
 
 .icon-down {
+  position: absolute;
   border-radius: 45px;
-  background-color: #ffffff;
+  background-color: $White;
   background-image: url("../images/ico-scroll-down.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 45px;
   height: 45px;
-  margin: auto;
-  margin-top: 45px;
+  margin-bottom: 53px;
 }

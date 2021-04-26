@@ -1,0 +1,52 @@
+.tips {
+    margin: 30px 15px 45px 15px;
+  }
+  
+  .title-tips {
+    color: $LightBlue;
+    font-size: 14px;
+    margin-bottom: 1px;
+  }
+  
+  .subtitle-tips {
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+  }
+  
+  .text-tips {
+    color: $GreyishBrown;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .go-tips {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 22.5px;
+    border: $Orange solid 2px;
+    background-color: $White;
+    width: 76px;
+    height: 33px;
+    padding-top: 12px;
+    text-align: center;
+  }
+  
+  .go-tips:hover {
+    background-color: $Orange;
+    transform: scale(1.3);
+  }
+  
+  .linkicon-go {
+    text-decoration: none;
+    color: $Orange;
+  }
+  
+  .linkicon-go:hover {
+    color: $White;
+    transition: color ease 2s;
+  }
+  

@@ -1,0 +1,55 @@
+.reasons-wrapper {
+  background-color: $IceBlue;
+}
+
+.reasons {
+  background-color: $IceBlue;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr;
+  grid-gap: 45px;
+  text-align: center;
+  padding: 20px;
+}
+
+.title-reasons {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.subtitle-reasons {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text-reasons {
+  font-family: "Roboto ", sans-serif;
+  font-size: 18px;
+}
+
+.article-reasons {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.more-reasons {
+  background-color: $Orange;
+  border: $Orange solid 2px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border-radius: 22.5px;
+  width: 184px;
+  height: 45px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-morereasons {
+  text-decoration: none;
+  color: $White;
+}
