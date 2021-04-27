@@ -1,0 +1,19 @@
+.new-section {
+  background-color: $Orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .new-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $DarkBlue;
+  }
+  .title {
+    color: white;
+  }
+}
